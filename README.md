@@ -34,11 +34,11 @@
 ![image](https://github.com/user-attachments/assets/038a7d0c-2d15-41ad-8cc1-0081aac7f112)
 
 
-10) User profile section
+10) Evalutaion page for teacher.
     ![image](https://github.com/user-attachments/assets/449f0738-1408-418b-83e9-c318312119e0)
 
-11) Evalutaion page for teacher.
-    ![image](https://github.com/user-attachments/assets/6e9a1010-4ad7-4ccf-abf6-6d87d3b8a1b8)
+11) User Profile
+    ![image](https://github.com/user-attachments/assets/95017f54-b3ef-459b-b8b1-6ae112e49c04)
 
 12) Admin dashboard
     ![image](https://github.com/user-attachments/assets/85a8384a-9d6a-4095-9a55-7f3fd8180cd9)
