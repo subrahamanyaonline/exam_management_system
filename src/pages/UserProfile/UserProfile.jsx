@@ -13,7 +13,7 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import "./Userprofile.css";
+import "./UserProfile.css";
 import { useNavigate } from 'react-router-dom';
 
 const UserProfile = () => {
