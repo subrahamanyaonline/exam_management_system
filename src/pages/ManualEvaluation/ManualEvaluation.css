@@ -1,0 +1,88 @@
+.manual-evaluation-container {
+  max-width: 1100px;
+    min-width: 900px;
+
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.evaluation-header {
+  padding: 10px;
+  background: #5b646d;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+.evaluation-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.questions-list {
+  padding-bottom: 10px;
+}
+
+.question-card {
+  background: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-group input,
+.input-group textarea {
+  border: 1px solid #ddd;
+}
+
+.evaluation-actions {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+
+.save-btn,
+.next-btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #218838;
+}
+
+.next-btn {
+  background: #007bff;
+  color: white;
+}
+
+.next-btn:disabled {
+  background: #cccccc;
+}
+
+.next-btn:hover:not(:disabled) {
+  background: #0056b3;
+}

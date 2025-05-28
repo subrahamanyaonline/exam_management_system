@@ -1,0 +1,169 @@
+.create-test-container {
+    max-width: 800px;
+    min-width: 600px;
+    margin: auto;
+    /* padding: 2rem; */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     padding: 20px 20px 20px; /* Top padding ensures it clears the AppBar */
+  max-height: 80vh;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .primary-btn,
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .submit-btn {
+    background-color: #28a745;
+  }
+  .upload-section{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .primary-btn:hover,
+  .submit-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon-btn.danger {
+    color: red;
+    width:unset
+  }
+  
+  .question-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .options-group input {
+    margin-bottom: 0.1rem;
+  }
+  
+  .workflow-toggle {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.toggle-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.upload-section,
+.manual-section {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #eef1f5;
+  margin-bottom:5px;
+  border: 1px dashed #ccc;
+}
+
+.upload-label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.secondary-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background-color: #5a6268;
+}
+
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.half-width {
+  flex: 1;
+  min-width: 250px;
+}

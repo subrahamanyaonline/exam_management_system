@@ -1,0 +1,114 @@
+.create-test-container {
+    max-width: 800px;
+    min-width: 600px;
+    margin: auto;
+    /* padding: 2rem; */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     padding: 20px 20px 20px; /* Top padding ensures it clears the AppBar */
+  max-height: 80vh;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .submit-btn {
+    background-color: #28a745;
+  }
+  
+  .primary-btn:hover,
+  .submit-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon-btn.danger {
+    color: red;
+  }
+  
+  .question-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .options-group input {
+    margin-bottom: 0.5rem;
+  }
+.action-buttons {
+  display: flex;
+  gap: 5rem;
+  margin-top: 20px;
+  justify-content: flex-end; /* Corrected this line */
+}
+
+
+.button-center {
+/* Existing styles for your primary button */
+  width: auto; /* Adjust this value as needed (e.g., 200px, 15em) */
+  display: block; /* Make it a block-level element */
+  margin: 20px auto; /* Add top/bottom margin for spacing, and auto for horizontal centering */
+  text-align: center; /* Center the text within the button (optional) */
+}
+.primary-btn1 {
+  /* Existing styles for your primary button */
+  width: auto; /* Adjust this value as needed (e.g., 200px, 15em) */
+  display: block; /* Make it a block-level element */
+  margin: 20px auto; /* Add top/bottom margin for spacing, and auto for horizontal centering */
+  text-align: center; /* Center the text within the button (optional) */
+}
+.primary-btn {
+  margin-top:10px;
+  display:unset;
+  gap:5rem;
+}

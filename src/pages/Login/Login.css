@@ -1,0 +1,146 @@
+/* Reset base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+    url("https://www.heropatterns.com/assets/patterns/graph-paper.svg") repeat;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Container for the login/signup form */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Form card styling */
+.form-box {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.form-box h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 7px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Login/Signup button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Role radio button section */
+.role-selection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 9px;
+  gap: 2rem;
+}
+
+.role-selection label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.role-selection input {
+  margin-right: 5px;
+}
+
+/* Toggle login/signup text */
+.toggle-text {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #555;
+}
+
+.toggle-text span {
+  color: #3498db;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.2s;
+}
+
+.toggle-text span:hover {
+  color: #1d6fa5;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .form-box {
+    padding: 1.5rem;
+  }
+
+  .role-selection {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
