@@ -1,20 +1,10 @@
-Exam Management System – React-Based Web Application
-
-This is a comprehensive React-based Exam Management System designed to streamline the online examination process for teachers, students, and administrators. The platform supports a wide range of features, including:
-
-Exam Management for Teachers: Teachers can create, modify, delete, and assign exams to students. Exam creation is supported both manually and via file uploads.
-
-Student Examination Experience: Students can take exams with real-time camera and voice recording for enhanced proctoring.
-
-Evaluation Flexibility: Supports both automated and manual evaluation methods.
-
-Results & Analytics: Students can view their results with interactive graphs and detailed analytics to track their performance.
-
-User Roles: Includes secure login and registration for Admins, Teachers, and Students.
-
-Communication: Integrated webchat allows real-time communication during the exam process.
+Web based exam management system – React JS project
 
 
+1) user roles : admin, teacher , student
+2) login and registration page for teacher & students
+
+![image](https://github.com/user-attachments/assets/ab612a09-73e9-409d-bbf6-873c1ecf0b36)
 
 
 How to setup:
