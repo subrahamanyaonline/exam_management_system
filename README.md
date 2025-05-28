@@ -1,5 +1,3 @@
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/1f97c695-9555-4021-bc42-7ad09776d264" /><img width="955" alt="image" src="https://github.com/user-attachments/assets/75c99c3d-9d0f-4a59-89d6-f3c0d11c1be5" />Web based exam management system – React JS project
-
 
 1) user roles : admin, teacher , student
 2) login and registration page for teacher,student & admin
@@ -45,7 +43,7 @@
 12) Admin dashboard
     ![image](https://github.com/user-attachments/assets/85a8384a-9d6a-4095-9a55-7f3fd8180cd9)
 
-
+13) 
 How to setup:
 1) Go to the root directory ( cd exam_management_system)
 2) npm install
