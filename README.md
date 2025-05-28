@@ -4,7 +4,9 @@
 
 ![image](https://github.com/user-attachments/assets/f98700a4-76eb-457e-88ff-200694c8bfa9)
 
-![image](https://github.com/user-attachments/assets/50eb718b-c9c9-45b8-83d8-11f8bcab3a5a)
+<img width="714" alt="image" src="https://github.com/user-attachments/assets/d99f0dfe-c7a4-4bef-95af-2b85272021b9" />
+
+
 
 3) Teacher home page.
 
