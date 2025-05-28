@@ -4,7 +4,8 @@
 
 ![image](https://github.com/user-attachments/assets/f98700a4-76eb-457e-88ff-200694c8bfa9)
 
-<img width="926" alt="image" src="https://github.com/user-attachments/assets/bf90104f-b858-44d8-b7a2-5929850c2ee6" />
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/d0561f7f-cdc7-4c9c-a411-3b967f429149" />
+
 
 
 
