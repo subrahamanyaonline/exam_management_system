@@ -475,6 +475,13 @@ function Login() {
   return (
     <div className="login-container">
       <div className="form-box">
+           <div className="watermark">
+  <p>Project : Exam Management System</p>
+   <p>University : KLE Technological University</p>
+      <p>Course : Bsc Industrial Track</p>
+
+</div>
+
         {!isSignUp && <h3>Login</h3>}
 
         <div className="role-selection">

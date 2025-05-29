@@ -17,6 +17,19 @@ body, html {
   align-items: center;
   padding: 1rem;
 }
+/* Add this to your CSS or style tag */
+.watermark {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.1; /* Transparent look */
+  font-size: 1rem;
+  color: #000;
+  pointer-events: none; /* Click-through */
+  z-index: 9999;
+  white-space: nowrap;
+}
 
 /* Container for the login/signup form */
 .login-container {
