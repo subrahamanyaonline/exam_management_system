@@ -1,5 +1,65 @@
 Live DEMO --> https://exam-management-system-five.vercel.app/
 
+
+
+
+✅ Features
+🔐 User Roles and Authentication
+Supports three roles: Admin, Teacher, and Student
+Secure login and registration system for all users
+
+👩‍🏫 Teacher Features
+Teacher Dashboard for managing tests and viewing analytics
+
+Test Creation:
+
+Upload test files (Excel)
+
+Create tests manually using a form-based interface
+
+Evaluation Page for reviewing student submissions
+
+Class Results Page with detailed performance views
+
+Messaging System to communicate with students
+
+Performance Insights with sortable and filterable results
+
+🎓 Student Features
+
+Student Dashboard showing exams, results, and announcements
+
+Online Examination Page with:
+
+Built-in camera and microphone integration for secure testing
+
+Audio and video recording during exams to ensure integrity
+
+Results Page showing marks and feedback
+
+Test History with performance breakdown
+
+Messaging System to interact with teachers
+
+👤 Common Features
+User Profile Management with editable details
+
+Admin Dashboard to manage users, exams, and global settings
+
+Responsive Design:
+
+Optimized for desktop, tablet, and mobile
+
+⚙️ Setup Instructions
+bash
+Copy
+Edit
+git clone https://github.com/your-repo
+cd exam_management_system
+npm install
+npm run dev
+
+
 1) user roles : admin, teacher , student
 2) login and registration page for teacher,student & admin
 
@@ -47,12 +107,6 @@ Live DEMO --> https://exam-management-system-five.vercel.app/
 
 12) Admin dashboard
     ![image](https://github.com/user-attachments/assets/85a8384a-9d6a-4095-9a55-7f3fd8180cd9)
-
-13) 
-How to setup:
-1) Go to the root directory ( cd exam_management_system)
-2) npm install
-3) npm run dev
 
 
 
