@@ -4,61 +4,48 @@ Live DEMO --> https://exam-management-system-five.vercel.app/
 
 
 ✅ Features
+
 🔐 User Roles and Authentication
-Supports three roles: Admin, Teacher, and Student
-Secure login and registration system for all users
+
+   1) Supports three roles: Admin, Teacher, and Student
+   2) Secure login and registration system for all users
 
 👩‍🏫 Teacher Features
-Teacher Dashboard for managing tests and viewing analytics
 
-Test Creation:
-
-Upload test files (Excel)
-
-Create tests manually using a form-based interface
-
-Evaluation Page for reviewing student submissions
-
-Class Results Page with detailed performance views
-
-Messaging System to communicate with students
-
-Performance Insights with sortable and filterable results
+   1) Teacher Dashboard for managing tests and viewing analytics
+   2) Test Creation using file upload(Excel)
+   3) Create tests manually using a form-based interface
+   4) Evaluation Page for reviewing student submissions.
+   5) Manual and Automated modes of evaluation
+   6) Class Results Page with detailed performance views
+   7) Integrated Messaging System to communicate with students
+   8) Performance Insights with sortable and filterable results
 
 🎓 Student Features
 
-Student Dashboard showing exams, results, and announcements
-
-Online Examination Page with:
-
-Built-in camera and microphone integration for secure testing
-
-Audio and video recording during exams to ensure integrity
-
-Results Page showing marks and feedback
-
-Test History with performance breakdown
-
-Messaging System to interact with teachers
+   1) Student Dashboard showing exams, results, and announcements
+   2) Online Examination Page with camera and microphone integration for secure testing
+   3) Audio and video recording during exams to ensure integrity
+   4) Results Page showing marks and feedback
+   5) Test History with performance breakdown
+   6) Messaging System to interact with teachers
 
 👤 Common Features
-User Profile Management with editable details
 
-Admin Dashboard to manage users, exams, and global settings
+   1) User Profile Management with editable details
+   2) Admin Dashboard to manage users, exams, and global settings
+   
 
-Responsive Design:
-
-Optimized for desktop, tablet, and mobile
 
 ⚙️ Setup Instructions
-bash
-Copy
-Edit
-git clone https://github.com/your-repo
-cd exam_management_system
-npm install
-npm run dev
 
+   git clone https://github.com/subrahamanyaonline/testing_repo.git
+   cd exam_management_system
+   npm install
+   npm run dev
+
+
+Demostration of all the screens:
 
 1) user roles : admin, teacher , student
 2) login and registration page for teacher,student & admin
