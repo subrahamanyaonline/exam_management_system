@@ -39,10 +39,10 @@ Live DEMO --> https://exam-management-system-five.vercel.app/
 
 ⚙️ Setup Instructions
 
-   git clone https://github.com/subrahamanyaonline/testing_repo.git
-   cd exam_management_system
-   npm install
-   npm run dev
+   1) git clone https://github.com/subrahamanyaonline/testing_repo.git
+   2) cd exam_management_system
+   3) npm install
+   4) npm run dev
 
 
 Demostration of all the screens:
